@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- external css link -->
     <link rel="stylesheet" href="./style.css">
+    <!-- jqyey  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     
 </head>
 <body>
@@ -231,7 +233,13 @@
       </footer>
 
     
-    
+    <script>
+        $(document).ready(function(){
+            $(".toggle").click(function(){
+                $(".main-navbar-nav").slideToggle()
+            })
+        })
+    </script>
     <!-- footer section ends -->
 </body>
 </html>
